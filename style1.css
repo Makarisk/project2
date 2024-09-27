@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    background: #fce1e1;
+    display: flex;
+}
+.nav a {
+    text-decoration: none;
+    color: #692d2d;
+    padding: 20px 30px;
+    font-size: 18px;
+}
+.nav a:hover {
+    background-color: #f5b0c9;
+    color: black;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fcf1c7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 2;
+    overflow-y: auto;
+}
+
+html {
+    height: 100%;
+}
+
+.content {
+    min-height: 100vh; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+.forms {
+    line-height: 1;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+/* Heading Styles */
+h1 {
+    font-size: 36px; /* Size of the main heading */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;     /* Darker color for h1 */
+    margin: 0px 0;  /* Adds margin for spacing */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 2px; /* Adds space between letters */
+}
+
+h2 {
+    font-size: 28px; /* Size of subheadings */
+    color: #692d2d;  /* Matches with navigation color */
+    margin: 0;  /* Adds margin for spacing */
+    font-weight: bold; /* Makes the subheading bold */
+    
+}
+
+h3 {
+    font-size: 22px; 
+    color: #444;  
+    margin: 0; 
+    text-decoration: underline; 
+}
+.container {
+    display: block;
+    flex-wrap: wrap; /* You can switch between nowrap, wrap, or wrap-reverse */
+    justify-content: center;
+    width: fit-content;
+}
+.educationlist {
+    list-style-type: none;
+    padding: 0;
+}
+
